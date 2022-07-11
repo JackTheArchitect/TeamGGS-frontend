@@ -1,0 +1,29 @@
+
+h1{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.screen1   {
+    background-color: rgb(219, 219, 219);
+    height:100vh;
+}
+
+.screen2   {
+    background-color: rgb(255, 255, 255);
+    height:100vh;
+}
+
+.screen3  {
+    background-color: rgb(219, 219, 219);
+    height:100vh;
+}
+
+.screen4   {
+    background-color: rgb(255, 255, 255);
+    height:100vh;
+}

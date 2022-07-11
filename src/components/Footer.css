@@ -1,0 +1,16 @@
+.footer-container {
+    background-color: #242424;
+    padding: 10px 0 2rem 0;
+    display: flex;
+}
+
+.team-name {
+    display: flex;
+    width: 100%;
+    max-width: 60rem;
+    margin: 20px auto 0 auto;
+}
+
+.website-rights {
+    color: #fff;
+}
