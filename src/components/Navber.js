@@ -17,6 +17,11 @@ function Navbar() {
                       Member
                     </a>
                   </li>
+                  <li className='nav-item'>
+                    <a className='nav-links' href='/login'>
+                      Login
+                    </a>
+                  </li>
                 </ul>
             </div>
         </nav>
