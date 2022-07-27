@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 function Login() {
-	const [error, setError] = useState("");
 
     const [data, setData] = useState({
         email: '', 
@@ -26,28 +25,11 @@ function Login() {
             const url = "https://team-ggs-back.herokuapp.com/users/signup";
 			const { data: res } = await axios.post(url, data);
 
-            // const dataPost = await fetch(url, {
-            //     method: "POST",
-            //     headers: {
-            //         "Content-Type": "application/json"
-            //       },
-            //     body: JSON.stringify({data})
-            // }).then(res => res.json())
-
-            // setData([...data, dataPost])
             navigate("/login");
-            // console.log(res.message);
-			console.log(res.message);
 
         }
         catch (error) {
-            if (
-				error.response &&
-				error.response.status >= 400 &&
-				error.response.status <= 500
-			) {
-				setError(error.response.data.message);
-			}
+			setError(error.response.data.message);
         }
 
     }
