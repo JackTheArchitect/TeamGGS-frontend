@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 function Login() {
+	const [error, setError] = useState('');
 
     const [data, setData] = useState({
         email: '', 
@@ -29,7 +30,7 @@ function Login() {
 
         }
         catch (error) {
-			setError(error.response.data.message);
+				setError(error.response.data.message);
         }
 
     }
