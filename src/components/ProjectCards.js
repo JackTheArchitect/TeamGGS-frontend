@@ -15,12 +15,24 @@ export default function ProjectCards() {
                         title= 'Todo'
                         description= 'Todo description test'
                     />
-                    {/* <CardItem
+                    <CardItem
                         page='/test'
                         src='images/totoro.jpg'
                         title= 'Todo'
                         description= 'Todo description test'
-                    /> */}
+                    />
+                    <CardItem
+                        page='/test'
+                        src='images/totoro.jpg'
+                        title= 'Todo'
+                        description= 'Todo description test'
+                    />
+                    <CardItem
+                        page='/test'
+                        src='images/totoro.jpg'
+                        title= 'Todo'
+                        description= 'Todo description test'
+                    />
                 </ul>
 
             </div>
